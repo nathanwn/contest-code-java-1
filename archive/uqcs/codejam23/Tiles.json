@@ -1,0 +1,39 @@
+{
+  "name" : "Tiles",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "6\n1 2\n1 3\n2 1\n3 1\n1 1\n5 1\n",
+    "output" : "13\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "6\n1 1\n1 2\n1 3\n3 1\n3 3\n3 2\n",
+    "output" : "11\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main/java/sol",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "sol.Tiles",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2023.04.01",
+  "contestName" : "HackerRank - UQCS CodeJam 2023",
+  "truncate" : true,
+  "inputClass" : "com.github.nathanwn.jcp.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

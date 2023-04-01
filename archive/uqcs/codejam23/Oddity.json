@@ -1,0 +1,34 @@
+{
+  "name" : "Oddity",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "23\nIf\nit\nwas\nso\nit\nmight\nbe\nAnd\nif\nit\nwere\nso\nit\nwould\nbe\nBut\nas\nit\nisnt\nit\naint\nThats\nlogic\n",
+    "output" : "ABITceimnrtw\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main/java/sol",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "sol.Oddity",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2023.04.01",
+  "contestName" : "HackerRank - UQCS CodeJam 2023",
+  "truncate" : true,
+  "inputClass" : "com.github.nathanwn.jcp.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

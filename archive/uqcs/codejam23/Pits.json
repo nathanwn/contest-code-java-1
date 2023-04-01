@@ -1,0 +1,34 @@
+{
+  "name" : "Pits",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5 10\n2 1 9 9 9 4 3 2 1 0\n3 9 8 7 8 9 4 9 2 1\n9 8 5 6 7 8 9 8 9 2\n8 7 6 7 8 9 6 7 8 9\n9 8 9 9 9 6 5 6 7 8\n",
+    "output" : "4\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main/java/sol",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "sol.Pits",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2023.04.01",
+  "contestName" : "HackerRank - UQCS CodeJam 2023",
+  "truncate" : true,
+  "inputClass" : "com.github.nathanwn.jcp.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

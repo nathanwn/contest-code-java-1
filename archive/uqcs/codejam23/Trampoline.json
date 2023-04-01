@@ -1,0 +1,34 @@
+{
+  "name" : "Trampoline",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3 4\n1 1 2 1\n2 2 1 3\n3 1 2 0\n",
+    "output" : "5\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/main/java/sol",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "sol.Trampoline",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2023.04.01",
+  "contestName" : "HackerRank - UQCS CodeJam 2023",
+  "truncate" : true,
+  "inputClass" : "com.github.nathanwn.jcp.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

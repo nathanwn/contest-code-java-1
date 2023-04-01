@@ -1,0 +1,39 @@
+{
+  "name" : "TwentyOne",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "4 6 A J 3 K\n",
+    "output" : "0\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "5 Q Q 9 J 3\n",
+    "output" : "-1\n",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main/java/sol",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "sol.TwentyOne",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2023.04.01",
+  "contestName" : "HackerRank - UQCS CodeJam 2023",
+  "truncate" : true,
+  "inputClass" : "com.github.nathanwn.jcp.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

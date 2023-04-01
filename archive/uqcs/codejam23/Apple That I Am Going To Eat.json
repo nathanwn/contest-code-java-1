@@ -1,0 +1,39 @@
+{
+  "name" : "Apple That I Am Going To Eat",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "there are so many cool uninplemented features that are yet to be ported over from the slack\n",
+    "output" : "",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "i'm not massively opposed to it but i agree that after 1/2 the levels aren't (or shouldn't be) really a \"difficulty\" indicator",
+    "output" : "apple that I am going to eat",
+    "index" : 1,
+    "active" : true
+  } ],
+  "location" : "src/main/java/sol",
+  "vmArgs" : "-Xmx512M",
+  "mainClass" : "Main",
+  "taskClass" : "sol.AppleThatIAmGoingToEat",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2023.04.01",
+  "contestName" : "HackerRank - UQCS CodeJam 2023",
+  "truncate" : true,
+  "inputClass" : "com.github.nathanwn.jcp.io.InputReader",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
